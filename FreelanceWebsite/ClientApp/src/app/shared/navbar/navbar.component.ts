@@ -66,4 +66,9 @@ export class NavbarComponent implements OnInit {
             return false;
         }
     }
+
+  scroll(el: HTMLElement) {
+    el.scrollIntoView();
+  }
+
 }
